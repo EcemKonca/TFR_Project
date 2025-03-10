@@ -66,7 +66,7 @@ class OrdersScreen extends StatelessWidget {
                             order.restaurantName,
                             style: const TextStyle(
                               fontSize: 16,
-                              fontWeight: FontWeight.bold,
+                              color: Colors.black54,
                             ),
                           ),
                           const SizedBox(height: 4),
@@ -74,7 +74,7 @@ class OrdersScreen extends StatelessWidget {
                           Text(
                             order.restaurantAddress,
                             style: const TextStyle(
-                              fontSize: 14,
+                              fontSize: 16,
                               color: Colors.black54,
                             ),
                           ),
